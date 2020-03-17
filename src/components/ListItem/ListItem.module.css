@@ -1,0 +1,18 @@
+.listItem {
+  font-family: "Indie Flower";
+  font-size: 2em;
+  padding-left: 1em;
+  position: relative;
+  cursor: pointer;
+  --image: url(./shopping-cart.svg);
+}
+
+.listItem::before {
+  content: "";
+  background-image: var(--image);
+  position: absolute;
+  left: -1em;
+  background-size: contain;
+  height: 1em;
+  width: 1em;
+}

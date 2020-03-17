@@ -1,0 +1,17 @@
+.button {
+  composes: inputPadding from "../App/App.css";
+  border-width: 2px;
+}
+
+.button:hover {
+  border: 2px solid var(--hover-color);
+  cursor: pointer;
+}
+
+.delete {
+  width: 2em;
+  height: 2em;
+  background-size: 80% 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+}

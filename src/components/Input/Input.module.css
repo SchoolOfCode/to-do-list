@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+}
+
+.input {
+  composes: inputPadding from "../App/App.css";
+  font-family: "Indie Flower";
+  padding-left: 0.5em;
+  outline: 0;
+}
